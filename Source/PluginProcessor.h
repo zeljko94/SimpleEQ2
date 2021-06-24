@@ -124,6 +124,10 @@ public:
             }
         }
     }
+
+    void updateLowCutFilters(const ChainSettings& chainSettings);
+    void updateHiCutFilters(const ChainSettings& chainSettings);
+    void updateFilters();
     
 private:
     //==============================================================================
