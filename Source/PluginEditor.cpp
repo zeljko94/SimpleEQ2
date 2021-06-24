@@ -18,6 +18,8 @@ ResponseCurveComponent::ResponseCurveComponent(SimpleEQ2AudioProcessor& p) : aud
     startTimerHz(60);
 }
 
+//test
+
 ResponseCurveComponent::~ResponseCurveComponent()
 {
     const auto& params = audioProcessor.getParameters();
